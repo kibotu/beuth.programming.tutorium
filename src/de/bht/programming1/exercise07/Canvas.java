@@ -5,10 +5,10 @@ import java.awt.*;
 
 public class Canvas extends JPanel {
 
-    private static final long serialVersionUID = -3692338615710052482L;
     protected Model model;
 
     public Canvas(final Model model) {
+        super();
         this.model = model;
         setBackground(Config.BACKGROUND_COLOR);
     }

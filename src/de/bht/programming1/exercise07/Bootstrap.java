@@ -12,7 +12,6 @@ public class Bootstrap extends JApplet {
         container.add(controller.getView());
         setSize(Config.WINDOW_WIDTH, Config.WINDOW_HEIGHT);
         setVisible(true);
-        controller.start();
     }
 
     public static void main(String[] args) {
@@ -24,6 +23,5 @@ public class Bootstrap extends JApplet {
         frame.setSize(Config.WINDOW_WIDTH, Config.WINDOW_HEIGHT);
         frame.setVisible(true);
         frame.setBackground(Color.WHITE);
-        controller.start();
     }
 }

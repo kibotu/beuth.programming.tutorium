@@ -10,7 +10,7 @@ public class Model {
     List<Drawable> list;
 
     public Model() {
-        this.list = new LinkedList<Drawable>();
+        this.list = new LinkedList<>();
     }
 
     public List<Drawable> getAll() {
