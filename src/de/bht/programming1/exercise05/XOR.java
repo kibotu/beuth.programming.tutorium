@@ -9,6 +9,7 @@ public class XOR {
     }
 
     private static int tmp;
+
     public static void swappedSlow(int[] swapMe) {
         tmp = swapMe[0];
         swapMe[0] = swapMe[1];

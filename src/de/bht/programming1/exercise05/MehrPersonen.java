@@ -5,15 +5,19 @@ import lernhilfe.v2010ws01.Personenliste;
 import pr1.qad.DirtyFileReader;
 import pr1.qad.DirtyFileWriter;
 
+import java.io.File;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class MehrPersonen {
 
-    public static final String FILEPATH = "assets/files/";
-    public static final String FILENAME_PERSON_LIST = "listen/personenliste.txt";
+    public static final String FILEPATH = "assets/files/listen/";
+    public static final String FILENAME_PERSON_LIST = "personenliste.txt";
 
     public static void main(String[] args) {
+        // naively creating folder if not exist
+        File f = new File(FILEPATH);
+        f.mkdirs();
         testAusgabe();
         System.out.println();
         testEinlesen();
