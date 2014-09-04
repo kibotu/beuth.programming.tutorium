@@ -29,7 +29,7 @@ public class Uebung3a {
     }
 
     public static void test3b() {
-        cout.println("maxVon(3,5) = " + maxVon(3,5));
+        cout.println("maxVon(3,5) = " + maxVon(3, 5));
         cout.println("hoch3Von(2) = " + hoch3Von(2));
         cout.println("istGroesser5(10) = " + istGroesser5(10));
         cout.println("istGroesser5(5) = " + istGroesser5(5));
@@ -49,7 +49,7 @@ public class Uebung3a {
     }
 
     public static boolean istGroesser5(double zahl) {
-        return Double.compare(zahl,5) > 0;
+        return Double.compare(zahl, 5) > 0;
     }
 
     public static boolean istGleich5(double zahl) {

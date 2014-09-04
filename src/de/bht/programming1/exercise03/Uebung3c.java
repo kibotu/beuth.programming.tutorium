@@ -41,7 +41,7 @@ public class Uebung3c {
 
     /**
      * Fast approximation of 1.0 / sqrt(x) after John Carmack (Quake 3)
-     * <p/>
+     * <p>
      * See <a href="http://www.beyond3d.com/content/articles/8/">http://www.beyond3d.com/content/articles/8/</a>
      *
      * @param x Positive value to estimate inverse of square root of
