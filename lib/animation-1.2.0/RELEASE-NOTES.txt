@@ -1,0 +1,162 @@
+
+
+                         JGoodies Animation
+                             Version 1.2
+                            Release Notes
+                        
+
+INTRODUCTION
+
+    This release fixes two bugs, ships with an overhauled tutorial,
+    and comes in a new distribution format.
+
+
+BUGS FIXED
+
+    o Incorrect sector computation in linear interpolations.
+    o Animator startTime is set too early, so that animations
+      with a short duration may never get started and stopped.
+    
+    
+CHANGES THAT AFFECT THE COMPATIBILITY
+
+    O AnimatedLabel#animationEnabled -> AnimatedLabel#animated
+    
+    
+DISTRIBUTION CHANGES
+
+    The sources now ship in the directory structure used by the CVS. 
+    This makes it easier to build the distribution using ANT.     
+    If you want to attach the library sources in an IDE, 
+    point to folder 'src/core'.
+    
+    
+OTHER CHANGES:
+
+    o Corrected implementation title and vendor in the JAR manifest.
+    o Fixed broken package information in the JAR manifest.
+    o Added project name tag to the ANT build file.
+    o Set 'build.compile.source' and 'build.compile.target' to '1.4'
+      in the default.properties; build.xml honors the source setting.
+    o Tutorial cleanup.
+
+
+
+---------------------------------------------------------------------------
+Find below the change history for older releases.
+
+
+                   JGoodies Animation, Version 1.1.3
+                            Release Notes
+                        
+
+INTRODUCTION
+
+    This maintenance release is primarily a documentation cleanup.
+
+
+OTHER CHANGES:
+
+    o Fixed typo in Intro demo.
+    o Added JavaDoc @version tags to all classes.
+    o Added JavaDoc @see tags to many class comments.
+    o AnimatedLabel#getText now synchronized.
+
+
+
+---------------------------------------------------------------------------
+Find below the change history for older releases.
+
+
+
+                   JGoodies Animation, Version 1.1.2
+                            Release Notes
+                        
+
+INTRODUCTION
+
+    This maintenance release is primarily a documentation cleanup.
+    And since this version the Animation framework requires Java 1.4.
+
+
+NEW FEATURES
+    o Main: AnimationFunctions.linearColor
+    
+
+BUGS FIXED
+
+    o The background in AnimatedLabel is now transparent.
+
+
+OTHER CHANGES
+
+    o Added package.html files.
+    o Added many JavaDoc @param tags.
+
+
+
+---------------------------------------------------------------------------
+Find below the change history for older releases.
+
+
+
+                   JGoodies Animation, Version 1.1.1
+                            Release Notes
+                        
+
+INTRODUCTION
+
+    This release just adds a preliminary version of the AnimatedLabel.
+
+
+NEW FEATURES
+
+    o Main: Added preliminary version of the AnimatedLabel 
+    
+
+OTHER CHANGES
+
+    o Documented empty blocks.
+
+
+
+---------------------------------------------------------------------------
+Find below the change history for older releases.
+
+
+
+                    JGoodies Animation, Version 1.1
+                            Release Notes
+                        
+
+INTRODUCTION
+
+    This release contains minor bug fixes and brings more documentation.
+
+
+DISTRIBUTION CHANGES
+
+    o Library sources ship as a single ZIP file  
+    o Documentation changed to HTML
+    o Added a test infrastructure and a few tests
+    o Added the Intro example
+    o Removed example code from the library jar
+
+
+BUGS FIXED
+
+    o Incorrect rounding in interpolations 
+
+
+
+---------------------------------------------------------------------------
+
+
+1.0.9 (July-17-2003)
+   o Code is now available under the BSD license
+   o Packaging reflects the new license
+   o Library jar is unobfuscated
+   o Library jar is unsigned
+   o Build overhauled
+
+   
