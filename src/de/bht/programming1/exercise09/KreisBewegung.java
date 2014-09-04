@@ -1,6 +1,5 @@
 package de.bht.programming1.exercise09;
 
-
 import de.bht.programming1.exercise07.drawable.Point;
 import j.schimkat.lernhilfe.simpleDrawingFramework.userPort.AnimatedDrawingScript;
 import j.schimkat.lernhilfe.simpleDrawingFramework.userPort.AnimationControler;
