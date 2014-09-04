@@ -14,7 +14,7 @@ public class Personen {
     public static void main(String[] args) {
         aufgabeB();
         aufgabeC();
-        // aufgabeE();
+//        aufgabeE();
     }
 
     public static void aufgabeB() {

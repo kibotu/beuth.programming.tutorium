@@ -19,7 +19,7 @@ public class Aufgabe04 {
     public static final PrintWriter cout = new PrintWriter(System.out, true);
 
     public static void main(String[] args) {
-
+        // naively creating folder if not exist
         File f = new File(FILEPATH);
         f.mkdirs();
 
