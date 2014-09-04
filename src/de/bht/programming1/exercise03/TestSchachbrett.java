@@ -12,12 +12,9 @@ public class TestSchachbrett {
     public static final String FILENAME = "schachbrett.txt";
 
     public static void main(String[] args) {
-        Hypothenuse.testHypothenuse(7, 2, new PrintWriter(System.out, true));
-
-        // creating folder if not exist
+        // naively creating folder if not exist
         File f = new File(FILEPATH);
         f.mkdirs();
-
         printSchachbrett(FILEPATH + FILENAME, false);
     }
 

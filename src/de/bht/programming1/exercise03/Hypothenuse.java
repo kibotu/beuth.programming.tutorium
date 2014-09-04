@@ -4,6 +4,10 @@ import java.io.PrintWriter;
 
 public class Hypothenuse {
 
+    public static void main(String [] args) {
+        Hypothenuse.testHypothenuse(7, 2, new PrintWriter(System.out, true));
+    }
+
     public static double hypothenuse(double k1, double k2) {
         return Math.sqrt(k1 * k1 + k2 * k2);  // also Math.hypot(k1,k2);
     }

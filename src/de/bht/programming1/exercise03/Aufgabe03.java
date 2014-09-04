@@ -13,7 +13,7 @@ public class Aufgabe03 {
 
     public static void main(String[] args) {
 
-        // creating folder if not exist
+        // naively creating folder if not exist
         File f = new File(FILEPATH);
         f.mkdirs();
 
