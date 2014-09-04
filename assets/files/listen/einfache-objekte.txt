@@ -1,0 +1,11 @@
+vor Hochzeit
+Kurt Bangert, geb. 1988: 99553 Berlin, Berliner Straße 20
+Anna Schmidt, geb. 87: 58821 Nürnberg, Nürnberger Straße 2
+
+nach Hochzeit
+Kurt BangertSchmidt, geb. 1988: 99553 Berlin, Berliner Straße 20
+Anna BangertSchmidt, geb. 87: 58821 Nürnberg, Nürnberger Straße 2
+
+nach Hochzeit
+Kurt BangertSchmidt, geb. 1988: 99553 Berlin, Berliner Straße 20
+Anna BangertSchmidt, geb. 87: 99553 Berlin, Berliner Straße 20

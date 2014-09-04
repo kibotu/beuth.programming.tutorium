@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lernhilfe-2010ws01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/lernhilfe-2010ws01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
